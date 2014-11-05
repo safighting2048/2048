@@ -2,7 +2,6 @@
 html, body {
   margin: 0;
   padding: 0;
-  background: #faf8ef;
   color: #776e65;
   font-family: "Clear Sans", "Helvetica Neue", Arial, sans-serif;
   font-size: 18px; }
@@ -82,7 +81,7 @@ h1.title {
     font-weight: bold;
     color: rgba(119, 110, 101, 0.9);
     z-index: 100;
-    -webkit-animation: move-up 600ms ease-in;
+    -webkit-animation: move-up 60ms ease-in;
     -moz-animation: move-up 600ms ease-in;
     animation: move-up 600ms ease-in;
     -webkit-animation-fill-mode: both;
@@ -90,10 +89,10 @@ h1.title {
     animation-fill-mode: both; }
 
 .score-container:after {
-  content: "Score"; }
+  content: "Punkte"; }
 
 .best-container:after {
-  content: "Best"; }
+  content: "Rekord"; }
 
 p {
   margin-top: 0;
@@ -189,7 +188,7 @@ hr {
       text-decoration: none;
       color: #f9f6f2;
       height: 40px;
-      line-height: 42px;
+      line-height: 60px;
       margin-left: 9px; }
       .game-container .game-message a.keep-playing-button {
         display: none; }
@@ -313,70 +312,67 @@ hr {
     z-index: 10;
     font-size: 55px; }
   .tile.tile-2 .tile-inner {
-    background: #eee4da;
+    color: rgba(0,0,0,0);
+    background: url('../bilder/2.jpg');
+    background-size: 100%;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
   .tile.tile-4 .tile-inner {
-    background: #ede0c8;
+    color: rgba(0,0,0,0);
+    background: url('../bilder/4.jpg');
+    background-size: 100%;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
   .tile.tile-8 .tile-inner {
-    color: #f9f6f2;
-    background: #f2b179; }
+    color: rgba(0,0,0,0);
+    background: url('../bilder/8.jpg');
+    background-size: 100%;
+    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
   .tile.tile-16 .tile-inner {
-    color: #f9f6f2;
-    background: #f59563; }
+    color: rgba(0,0,0,0);
+    background: url('../bilder/16.jpg');
+    background-size: 100%;
+    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
   .tile.tile-32 .tile-inner {
-    color: #f9f6f2;
-    background: #f67c5f; }
+    color: rgba(0,0,0,0);
+    background: url('../bilder/32.jpg');
+    background-size: 100%;
+    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
   .tile.tile-64 .tile-inner {
-    color: #f9f6f2;
-    background: #f65e3b; }
+     color: rgba(0,0,0,0);
+    background: url('../bilder/64.jpg');
+    background-size: 100%;
+    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
   .tile.tile-128 .tile-inner {
-    color: #f9f6f2;
-    background: #edcf72;
-    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.2381), inset 0 0 0 1px rgba(255, 255, 255, 0.14286);
-    font-size: 45px; }
-    @media screen and (max-width: 520px) {
-      .tile.tile-128 .tile-inner {
-        font-size: 25px; } }
+   color: rgba(0,0,0,0);
+    background: url('../bilder/128.jpg');
+    background-size: 100%;
+    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
   .tile.tile-256 .tile-inner {
     color: #f9f6f2;
-    background: #edcc61;
-    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.31746), inset 0 0 0 1px rgba(255, 255, 255, 0.19048);
-    font-size: 45px; }
-    @media screen and (max-width: 520px) {
-      .tile.tile-256 .tile-inner {
-        font-size: 25px; } }
+    color: rgba(0,0,0,0);
+    background: url('../bilder/256.jpg');
+    background-size: 100%;
+    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
   .tile.tile-512 .tile-inner {
-    color: #f9f6f2;
-    background: #edc850;
-    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.39683), inset 0 0 0 1px rgba(255, 255, 255, 0.2381);
-    font-size: 45px; }
-    @media screen and (max-width: 520px) {
-      .tile.tile-512 .tile-inner {
-        font-size: 25px; } }
+    color: rgba(0,0,0,0);
+    background: url('../bilder/512.jpg');
+    background-size: 100%;
+    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
   .tile.tile-1024 .tile-inner {
-    color: #f9f6f2;
-    background: #edc53f;
-    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.47619), inset 0 0 0 1px rgba(255, 255, 255, 0.28571);
-    font-size: 35px; }
-    @media screen and (max-width: 520px) {
-      .tile.tile-1024 .tile-inner {
-        font-size: 15px; } }
+    color: rgba(0,0,0,0);
+    background: url('../bilder/1024.jpg');
+    background-size: 100%;
+    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
   .tile.tile-2048 .tile-inner {
     color: #f9f6f2;
-    background: #edc22e;
-    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.55556), inset 0 0 0 1px rgba(255, 255, 255, 0.33333);
-    font-size: 35px; }
-    @media screen and (max-width: 520px) {
-      .tile.tile-2048 .tile-inner {
-        font-size: 15px; } }
+    color: rgba(0,0,0,0);
+    background: url('../bilder/2048.jpg');
+    background-size: 100%;
+    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
   .tile.tile-super .tile-inner {
-    color: #f9f6f2;
-    background: #3c3a32;
-    font-size: 30px; }
-    @media screen and (max-width: 520px) {
-      .tile.tile-super .tile-inner {
-        font-size: 10px; } }
+    color: rgba(0,0,0,0);
+    background: url('../bilder/gil.jpg');
+    background-size: 100%;
+    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
 
 @-webkit-keyframes appear {
   0% {
