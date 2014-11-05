@@ -613,7 +613,6 @@ hr {
   .game-intro {
     width: 400px;
     display: block;
-    box-sizing: border-box;
     line-height: 1.65; }
 
   .restart-button {
