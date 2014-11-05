@@ -635,7 +635,7 @@ hr {
     -ms-user-select: none;
     -ms-touch-action: none;
     touch-action: none;
-    background: #6BEEAB;
+    background: #bbada0;
     border-radius: 6px;
     width: 280px;
     height: 280px;
@@ -650,7 +650,7 @@ hr {
     right: 0;
     bottom: 0;
     left: 0;
-    background: rgba(238, 228, 218, 0.73);
+    background: #6BEEAB;
     z-index: 100;
     padding-top: 40px;
     text-align: center;
