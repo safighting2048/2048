@@ -621,7 +621,7 @@ hr {
     padding: 0;
     display: block;
     box-sizing: border-box;
-    margin-top: 20px; }
+    margin-top: 2px; }
 
   .game-container {
     margin-top: 17px;
@@ -635,7 +635,7 @@ hr {
     -ms-user-select: none;
     -ms-touch-action: none;
     touch-action: none;
-    background: #bbada0;
+    background: #6BEEAB;
     border-radius: 6px;
     width: 280px;
     height: 280px;
