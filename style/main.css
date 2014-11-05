@@ -2,7 +2,7 @@
 html, body {
   margin: 0;
   padding: 0;
-  background: #faf8ef;
+  background: #6BEEAB;
   color: #776e65;
   font-family: "Clear Sans", "Helvetica Neue", Arial, sans-serif;
   font-size: 18px; }
@@ -12,7 +12,7 @@ body {
 
 input {
   display: inline-block;
-  background: #6BEEAB;
+  background: #8f7a66;
   border-radius: 3px;
   padding: 0 20px;
   text-decoration: none;
