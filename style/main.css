@@ -12,7 +12,7 @@ body {
 
 input {
   display: inline-block;
-  background: #8f7a66;
+  background: #6BEEAB;
   border-radius: 3px;
   padding: 0 20px;
   text-decoration: none;
@@ -650,7 +650,7 @@ hr {
     right: 0;
     bottom: 0;
     left: 0;
-    background: #6BEEAB;
+    background: rgba(238, 228, 218, 0.73);
     z-index: 100;
     padding-top: 40px;
     text-align: center;
