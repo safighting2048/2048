@@ -613,6 +613,7 @@ hr {
   .game-intro {
     width: 400px;
     display: block;
+    box-sizing: border-box;
     line-height: 1.65; }
 
   .restart-button {
@@ -620,7 +621,7 @@ hr {
     padding: 0;
     display: block;
     box-sizing: border-box;
-    margin-top: 2px; }
+    margin-top: 6px; }
 
   .game-container {
     margin-top: 17px;
